@@ -1,18 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import { Text } from "@gluestack-ui/themed";
 
 export function Home() {
   return (
-    <View style={styles.container}>
+    <View >
       <Text>Home</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
